@@ -1,23 +1,32 @@
-# TÍTULO DO PROJETO
+# Site Violência Contra A Mulher 
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Desenvolvimento Web End`
 
-`SEMESTRE`
+`SEMESTRE 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Com o avanço das tecnologias e acesso à informação, as mulheres estão inserindo-se no mercado de trabalho e conquistando o seu lugar neste ambiente, superando barreiras, se aperfeiçoando e entendendo os seus direitos.  
+
+Infelizmente, esta realidade ainda é distante para aquelas que sofrem violência doméstica, visto que muitas vezes são ameaçadas e não têm sabedoria das informações para saírem dessa situação.  Dentre os “motivos” pelas quais sofrem este tipo de dano são, em primeiro lugar, ciúmes e, em sequência, problemas com bebidas alcoólicas por parte dos agressores, problemas financeiros e problemas familiares. A matéria do Jornal Nacional, publicada em 2019, sobre o porquê as mulheres não denunciam seus agressores, mostra que 1 a cada 4 mulheres são dependentes financeiramente deles, não efetivando a queixa: 
+
+“As mulheres, quando realizam queixa na delegacia, estão em um momento de conflito, pois, a esses sentimentos de desespero, vergonha e humilhação, junta-se o temor de expor o homem a quem escolheu para ser o pai de seus filhos. Quando a mulher faz a queixa na delegacia, não é o rompimento das relações afetivas que ela quer, mas a interferência e a proteção da polícia em futuras agressões ou auxílio para administrar os impasses domésticos (BRANDÃO, 1998).” Fonte: Artigo” Os motivos que mantêm as mulheres vítimas de violência no relacionamento violento”. 
+
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Derick  Johansson
+* Edglei Marques
+* Josyane Luiza
+* Maria Eliza de Sá
+* Pedro Victor
+* Renato Silva 
+* Stephanie Ingrid
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone de Assis Alves da Silva 
 
 ## Instruções de utilização
 
