@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de entidades</title>
+    <link rel="stylesheet" href="../styles/CadastEntStyle.css">
+    <script src="cadastEnt.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="titulo">
+            <h1>Cadastro de entidades</h1>
+        </div>
+        <div class="link">
+            <a href="Home.html"> Início</a>
+        </div>
+    </div>
+    <form action="">
+        <div class="formatForm">
+            <label for="name">Nome da Organização: </label>
+            <input id="name" type="text">
+        </div>
+        <div class="formatForm">
+            <label for="Phone">Telefone da organização: </label>
+            <input type="number">
+        </div>
+        <div class="formatForm">
+            <label for="adress">Endereço Organização: </label>
+            <input type="text">
+        </div>
+        <div class="formatForm">
+            <label for="city">Cidade: </label>
+            <input class="city" type="text">
+            <label for="state">Estado: </label>
+            <input class="city" type="text">
+        </div>
+        <div class="formatForm">
+            <label for="url">Site da Organização: </label>
+            <input type="url">
+        </div>
+        <div class="formatForm">
+            <label for="name">Imagem da Organização: </label>
+            <input type="text" placeholder="Caminho da arquivo da imagem">
+        </div>
+        <div class="formatForm">
+            <textarea name="description" id="description" cols="200" rows="20" placeholder="Digite a história de sua entidade e como pode ajudar"></textarea><br>
+        </div>
+        <button onclick="salva()">Enviar</button>
+    </form>
+</body>
+</html>
