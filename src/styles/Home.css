@@ -1,0 +1,143 @@
+/* HOME PAGE CONFIG ALL */
+/* .container {
+   width: auto;
+   height: auto;
+} */
+
+/* Homepage HEADER Config */
+.header {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 1rem;
+   background-color: #C9B4ED;
+}
+.nav-top{
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+   width: 100%;
+}
+.nav-top a{
+   background-color: #a782e9;
+   padding: 0.5rem;
+   border-radius:4px;
+   transition:.25s;
+}
+.nav-top a:hover{
+   background-color: #ba92ff;
+   transition:.25s;
+}
+
+.links-container{
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+   width: 650px;
+   background-color: transparent;
+}
+
+.search-container input{
+   border:none;
+   border-bottom:1.2px solid gray;
+   border-radius:4px;
+}
+.search-container button{
+   border:none;
+   padding:3px;
+   border-radius:3px;
+   background:#a782e9;
+   color:aliceblue;
+   cursor: pointer;
+}
+
+.btn-menu{
+   padding:0.5rem;
+}
+
+.logo-app{
+   padding:2rem;
+}
+
+.nav-bottom {
+   display: flex;
+   flex-direction: column;
+   background-color: #b090e7;
+   width: 15vw;
+   height: 25vh;
+   position: absolute;
+   left: -100vw;
+   transition: .25s;
+}
+
+
+.nav-bottom-active {
+   height: 98vh;
+   position: absolute;
+   left: 0vw;
+   transition: .25s;
+}
+
+.nav-bottom a {
+   height: 64px;
+   color: #ffffff;
+   background-color: #b090e7;
+   margin-bottom: 1px;
+   padding-left: 64px;
+   display: flex;
+   align-items: center;
+}
+
+.nav-bottom a:hover{
+   background-color: #c4a7f5;
+}
+
+main{
+   width: 100%;
+   display:flex;
+   justify-content:space-between;
+}
+.content-1{
+   background-color:red;
+   width:50%;
+}
+.content-2{
+   background:blue;
+   width:50%;
+}
+
+/* MODO DARK */
+.headerDark{
+   background-color:#4e03c7;
+   transition:.25s;
+}
+.headerDark .btnLink{
+   background-color:#6b22e0;
+   color: white;
+   transition:.25s;
+}
+.headerDark .btn-darkMode{
+   background-color:#6b22e0;
+   color: white;
+   transition:.25s;
+}
+
+.headerDark .btn-menu{
+   background-color:#6b22e0;
+   color: white;
+   transition:.25s;
+}
+.nav-bottom-dark{
+   background-color:#4e03c7;
+   transition:.20s;
+}
+.nav-bottom-dark a{
+   background-color:#8346e6;
+   transition:.20s;
+}
+.bodyDark{
+   background-color:rgb(27, 14, 51);
+   transition:.20s;
+}
