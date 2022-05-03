@@ -1,23 +1,34 @@
-# TÍTULO DO PROJETO
+# Site Violência Contra A Mulher 
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Desenvolvimento Web End`
 
-`SEMESTRE`
+`SEMESTRE 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Com o avanço das tecnologias e acesso à informação, as mulheres estão inserindo-se no mercado de trabalho e conquistando o seu lugar neste ambiente, superando barreiras, se aperfeiçoando e entendendo os seus direitos.  
+
+Infelizmente, esta realidade ainda é distante para aquelas que sofrem violência doméstica, visto que muitas vezes são ameaçadas e não têm sabedoria das informações para saírem dessa situação.  Dentre os “motivos” pelas quais sofrem este tipo de dano são, em primeiro lugar, ciúmes e, em sequência, problemas com bebidas alcoólicas por parte dos agressores, problemas financeiros e problemas familiares. A matéria do Jornal Nacional, publicada em 2019, sobre o porquê as mulheres não denunciam seus agressores, mostra que 1 a cada 4 mulheres são dependentes financeiramente deles, não efetivando a queixa: 
+
+“As mulheres, quando realizam queixa na delegacia, estão em um momento de conflito, pois, a esses sentimentos de desespero, vergonha e humilhação, junta-se o temor de expor o homem a quem escolheu para ser o pai de seus filhos. Quando a mulher faz a queixa na delegacia, não é o rompimento das relações afetivas que ela quer, mas a interferência e a proteção da polícia em futuras agressões ou auxílio para administrar os impasses domésticos (BRANDÃO, 1998).” Fonte: Artigo” Os motivos que mantêm as mulheres vítimas de violência no relacionamento violento”. 
+
+Vale salientar que a violência doméstica, seja ela física, psicológica, sexual, patrimonial e moral, não ocorre somente com mulheres, mesmo sendo em grande parte as vítimas deste crime, mas também com homens e crianças, sendo necessário a proteção de todos. Outro adentro do tema seria o aumento da violência doméstica em tempos de pandemia, já que o isolamento social tornou ainda mais difícil a sua incriminação: “A residência continua sendo o lugar mais perigoso. Praticamente metade dos casos de violência aconteceu dentro de casa, e 73% dos agressores eram íntimos das vítimas. Maridos ou namorados em primeiro lugar, seguidos de ex-maridos ou ex-namorados, pais ou mães, padrastos ou madrastas e mesmo filhos e filhas. Para Amanda Pimentel, uma das autoras do estudo, o estudo mostra que a violência contra a mulher mantém padrões antigos, mas agravados pela pandemia do coronavírus, que conseguiu tornar o ambiente doméstico um lugar ainda mais hostil. Segundo o estudo, a crise sanitária tem dificultado o enfrentamento da violência contra mulher, já que o convívio mais longo com os agressores, a perda de renda familiar e o maior isolamento afastam as mulheres de suas redes de proteção.” Fonte: Rádio Agência Nacional. 
+
+Em contraposição a estes cenários, torna se imprescindível a criação de canais e ferramentas que auxiliem a denúncia, informação, entre outros meios para combater este tipo de crime a fim de facilitar que estas vítimas tenham convergência ao que precisarem para saírem desta situação para viverem livres e independentes de seus agressores
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Derick  Johansson
+* Edglei Marques
+* Josyane Luiza
+* Maria Eliza de Sá
+* Pedro Victor
+* Renato Silva 
+* Stephanie Ingrid
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone de Assis Alves da Silva 
 
 ## Instruções de utilização
 
