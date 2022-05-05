@@ -11,38 +11,38 @@
 <body>
     <div class="navbar">
         <div class="titulo">
-            <h1>Cadastro de entidades</h1>
+            <h1>Cadastro da Instituição</h1>
         </div>
         <div class="link">
             <a href="Home.html"> Início</a>
         </div>
     </div>
-    <form action="">
+    <form onsubmit="naoMudar(event)" action="">
         <div class="formatForm">
             <label for="name">Nome da Organização: </label>
             <input id="name" type="text">
         </div>
         <div class="formatForm">
-            <label for="Phone">Telefone da organização: </label>
-            <input type="number">
+            <label for="phone">Telefone da organização: </label>
+            <input id="phone" type="number">
         </div>
         <div class="formatForm">
             <label for="adress">Endereço Organização: </label>
-            <input type="text">
+            <input id="adress" type="text">
         </div>
         <div class="formatForm">
             <label for="city">Cidade: </label>
-            <input class="city" type="text">
+            <input id="city" class="city" type="text">
             <label for="state">Estado: </label>
-            <input class="city" type="text">
+            <input id="state" class="city" type="text">
         </div>
         <div class="formatForm">
             <label for="url">Site da Organização: </label>
-            <input type="url">
+            <input id="url" type="url">
         </div>
         <div class="formatForm">
             <label for="name">Imagem da Organização: </label>
-            <input type="text" placeholder="Caminho da arquivo da imagem">
+            <input type="file" placeholder="Caminho da arquivo da imagem">
         </div>
         <div class="formatForm">
             <textarea name="description" id="description" cols="200" rows="20" placeholder="Digite a história de sua entidade e como pode ajudar"></textarea><br>
