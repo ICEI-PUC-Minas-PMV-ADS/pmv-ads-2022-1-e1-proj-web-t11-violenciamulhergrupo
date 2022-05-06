@@ -1,0 +1,30 @@
+
+    .card{
+        width: 1340px;
+        height: 100px;
+        background-color:#976DD0 ;
+    }
+   .container{
+display:flex;
+justify-content:left;
+border-radius: 10ch;
+margin-top: 0%;
+   }
+   text{
+       text-align: center;
+
+   }
+    caption{ 
+        text-align:center;
+    }
+    table{
+    margin-top: 3cm;
+    margin-left: 7cm;
+        text-align:center;
+        border-color: rgb(18, 18, 19);
+    }
+    a{
+        color: #2B2B2B;
+        
+    }
+   
