@@ -108,7 +108,8 @@ main{
 }
 .content-2{
    background:#C72028;
-   width:50%;
+   width:200px;
+   height: 80px;
    border-radius: 5px;
 }
 
@@ -146,7 +147,7 @@ main{
    transition:.20s;
 }
 .card{
-   border: 1px solid;
+   border: #c4a7f5 2px solid;
    background-color: transparent;
    height: 400px;
    width: 300px;
@@ -167,8 +168,9 @@ main{
 }
 .descrInst{
    height: 127px;
-   border: 0.5px solid;
+   border-top: 0.5px solid;
 }
 .nameInst{
-   border: 1px solid;
+   border-top: 1px solid;
+   border-bottom: 1px solid;
 }
