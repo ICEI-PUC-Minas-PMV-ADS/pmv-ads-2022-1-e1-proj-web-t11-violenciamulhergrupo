@@ -103,7 +103,7 @@ main{
    justify-content:space-between;
 }
 .content-1{
-   background-color:red;
+   border: rgb(139, 126, 126) 0.5px solid;
    width:50%;
 }
 .content-2{
