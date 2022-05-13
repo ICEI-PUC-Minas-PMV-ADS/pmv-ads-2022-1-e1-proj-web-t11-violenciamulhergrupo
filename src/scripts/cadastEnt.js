@@ -1,6 +1,6 @@
-function naoMudar(e){
+/*function naoMudar(e){
     e.preventDefault();
-}
+}*/
 function salva(){
     const nome = document.getElementById("name");
     const fone = document.getElementById("phone");
