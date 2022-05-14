@@ -62,3 +62,8 @@ label{
 .city{
     width: 400px;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
