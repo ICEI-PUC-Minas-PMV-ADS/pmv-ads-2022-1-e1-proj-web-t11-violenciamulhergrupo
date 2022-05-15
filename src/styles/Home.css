@@ -14,6 +14,7 @@
    justify-content: space-between;
    padding: 1rem;
    background-color: #C9B4ED;
+   border-bottom: 1px solid #222;
 }
 .nav-top{
    transition:0.3s;
@@ -45,6 +46,7 @@
    border:none;
    border-bottom:1.2px solid gray;
    border-radius:4px;
+   padding: 2px;
 }
 .search-container button{
    border:none;
@@ -56,9 +58,11 @@
 }
 
 .btn-menu{
-   padding:0.5rem;
+   background-color: #a782e9;
+   padding: 1rem;
+   border-radius:4px;
+   transition:.25s;
 }
-
 .logo-app{
    padding:2rem;
 }
