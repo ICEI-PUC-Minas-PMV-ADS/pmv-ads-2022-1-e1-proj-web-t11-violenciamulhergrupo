@@ -14,7 +14,6 @@
    justify-content: space-between;
    padding: 1rem;
    background-color: #C9B4ED;
-   border-bottom: 1px solid #222;
 }
 .nav-top{
    transition:0.3s;
@@ -65,6 +64,13 @@
 }
 .logo-app{
    padding:2rem;
+   display: flex;
+   align-items: center;
+}
+
+.thumb{
+   width: 150px;
+   height: 100px;
 }
 
 .nav-bottom {
@@ -105,16 +111,23 @@ main{
    width: 100%;
    display:flex;
    justify-content:space-between;
+   margin: 0 auto;
 }
 .content-1{
-   border: rgb(139, 126, 126) 0.5px solid;
-   width:50%;
+   margin-top:2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
 }
-.content-2{
-   background:#C72028;
-   width:200px;
-   height: 80px;
-   border-radius: 5px;
+.sub-content{
+   width: 40%;
+   background-color: #f3f3f3;
+   padding:1rem;
+}
+.sub-content p{
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
 /* MODO DARK */
@@ -147,8 +160,15 @@ main{
    transition:.20s;
 }
 .bodyDark{
-   background-color:rgb(27, 14, 51);
+   background-color:#363636;
    transition:.20s;
+   color:#f3f3f3;
+}
+.bodyDark a{
+   color: rgb(47, 230, 47);
+}
+.bodyDark .sub-content{
+   background: #222;
 }
 .card{
    border: #c4a7f5 2px solid;
