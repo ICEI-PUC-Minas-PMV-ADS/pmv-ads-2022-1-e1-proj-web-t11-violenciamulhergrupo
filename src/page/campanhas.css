@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;  
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+header{
+    background-color: rgb(222, 135, 193);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+    color: purple;
+}
+nav a:hover{
+    color: blueviolet;
+
+}
