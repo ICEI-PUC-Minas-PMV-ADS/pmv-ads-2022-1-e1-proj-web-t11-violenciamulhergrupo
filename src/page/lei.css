@@ -23,6 +23,10 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
+nav a:hover{
+    color: blueviolet;
+
+}
 h1{
     color: purple;
 }
