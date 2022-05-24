@@ -5,3 +5,6 @@
    text-decoration: none;
    font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+   --cor-primaria: #C9B4ED;
+}
