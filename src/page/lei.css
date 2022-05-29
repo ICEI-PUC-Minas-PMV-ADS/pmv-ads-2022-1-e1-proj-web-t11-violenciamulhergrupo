@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;  
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+header{
+    background-color: rgb(222, 135, 193);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a:hover{
+    color: blueviolet;
+
+}
+h1{
+    color: purple;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;    
+}
+
+iframe{
+    width: 500px;
+    height: 400px;
+    padding: 20px;        
+}
+footer{
+    background-color:rgb(222, 135, 193) ;
+}
