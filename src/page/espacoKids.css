@@ -1,32 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 
 header{
-    background-color: #E0D3F1;
-    padding: 20px;
+    background-color: rgb(222, 135, 193);
     display: flex;
-    justify-content: space-between;        
+    align-items: center;
+    justify-content: space-evenly;       
 }
-.homePage{
+ul{
     display: flex;
-    margin: 23px;
-    cursor: pointer;
-    font-size: 25px;    
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
 }
-.titulo{
-    display: flex;
-    margin: auto;
-    font-size:42px;        
+img{
+    width: 150px;
+    height: 150px;
+}
+a{
+    color: purple;
+    text-decoration: none;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;  
-    text-align: center;
-    color: black;
+    text-align: center;    
+}
+nav a:hover{
+    color: blueviolet;
+
 }
 h1{
+    color: purple;
+}
+h2{
     text-align: center;
     font-size: 25px;
     padding: 10px;
@@ -60,4 +65,9 @@ th{
     vertical-align: inherit;
     font-weight: bold;    
 }
+footer{
+    background-color:rgb(222, 135, 193) ;
+    margin-top: 10px;
+}
+
 
