@@ -5,7 +5,7 @@ h2{
 }
 body{
     font-family: Arial;
-    width: 940px;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
 }
@@ -14,11 +14,48 @@ body{
     flex-direction: column;
     justify-items: center;
 }
-.cabeçalho{
-    height: 150px;
-    text-align: center;
-    background:#976DD0; 
-    color:#DDDDDD;
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: rgba(151, 109, 208, 0.3);
+    margin-bottom: 10px;
+}
+.titulo{
+    display: flex;
+    width: 100%;
+}
+.titulo h1{
+    color: blueviolet;
+    margin: 50px 20px;
+    font-size: 50px;
+}
+.link{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: right;
+    margin: 35px 20px;
+    font-size: 25px;
+}
+
+.link a{
+    background-color: rgba(151, 109, 208, 0.84);
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    text-align: center;   
+    padding:15px 55px;
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow:0 5px 0 #675c75d6;
+    transition: .40s;
+}
+.link a:hover{
+    transition: .40s;
+    background-color: rgba(151, 109, 208,0.40);
+    color:#fff;
+    box-shadow:0 2px 0 #675c75d6;
 }
 body p{
     text-align: center;
@@ -28,12 +65,11 @@ body p{
     width:400px;
     height: 275px;
     border: 4px solid #999
-    background: transparent url(/img.jpg)
 
 }
 .campoMensagens{
 
-    width:600px;
+    width:auto;
     height: 200px;
     border: 0.5px solid #999
 }
