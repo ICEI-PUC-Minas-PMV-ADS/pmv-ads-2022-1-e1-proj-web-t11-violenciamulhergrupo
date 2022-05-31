@@ -1,0 +1,39 @@
+
+h2{
+    padding: 1px;
+
+}
+body{
+    font-family: Arial;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Mensagens{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.cabeçalho{
+    height: 150px;
+    text-align: center;
+    background:#976DD0; 
+    color:#DDDDDD;
+}
+body p{
+    text-align: center;
+}
+
+.conteudo{
+    width:400px;
+    height: 275px;
+    border: 4px solid #999
+    background: transparent url(/img.jpg)
+
+}
+.campoMensagens{
+
+    width:600px;
+    height: 200px;
+    border: 0.5px solid #999
+}
