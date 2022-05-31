@@ -27,10 +27,12 @@ h1{
 }
 iframe {
     margin-left: 400px;
-    margin-top: 3px px;
+    margin-top: 3px;
+    float: left;
+    
 }
 .container{
-    display: flex;
+    display: inline-block;
 }
 
 .card{
@@ -40,6 +42,7 @@ iframe {
     border-radius: 15px;
     margin-top: 3px;
     margin-left: 1100px;
+    float: left;
 }
 h2{
     text-align: center;
