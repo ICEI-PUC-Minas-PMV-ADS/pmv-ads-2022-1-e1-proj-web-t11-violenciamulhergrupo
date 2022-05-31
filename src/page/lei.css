@@ -10,7 +10,7 @@ ul{
     padding: 16px;
 }
 a{
-    color: purple;
+    color: blueviolet;
     text-decoration: none;
 }
 img{
@@ -18,7 +18,7 @@ img{
     height: 150px;
 }
 header{
-    background-color: rgb(222, 135, 193);
+    background-color: #E0D3F1;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@ nav a:hover{
 
 }
 h1{
-    color: purple;
+    color: blueviolet;
 }
 h2{
     text-align: center;
@@ -41,7 +41,4 @@ iframe{
     width: 500px;
     height: 400px;
     padding: 20px;        
-}
-footer{
-    background-color:rgb(222, 135, 193) ;
 }
