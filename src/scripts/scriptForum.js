@@ -6,5 +6,5 @@ let campo4 = document.getElementById("mens4")
 function GravarMens(){
     alert("testando")
    let texto = document.getElementById("texto")
-   campo1.innerText = texto.value 
+   campo1.innerHTML = texto.value 
 }

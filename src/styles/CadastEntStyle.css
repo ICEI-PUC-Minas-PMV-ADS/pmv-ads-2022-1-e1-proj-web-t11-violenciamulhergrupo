@@ -51,7 +51,10 @@ button{
     font-size: larger;
 }
 input{
-    width: 1200px;
+    width: 1330px;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: lightgray;
 }
 .formatForm{
     display: flex;
@@ -60,13 +63,61 @@ input{
 label{
     font-size: large;
     font-weight: bold;
-    margin-right: 5px;
+    width: 200px;
+    justify-items: right;
 }
 .city{
-    width: 400px;
+    width: 560px;
+}
+.image{
+    background-color: white;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+  }
+  @media only screen and (max-width:650px) {
+    .navbar{
+        flex-direction: column;
+        width: 660px;
+    }
+    .titulo h1{
+        color: blueviolet;
+        margin: 30px 20px;
+        font-size: 30px;
+    }
+    .link a{
+        width: 30px;
+        height: 10px;
+        justify-content: left;
+        text-align: center;   
+        margin-top: 10px;
+        padding:10px 10px;
+        
+    }
+    .link{
+        width: 660px;
+        height: 150px;
+        display: flex;
+        justify-content: left;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    .formatForm{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        font-size: 15px;
+        font-weight: bold;
+        width: 200px;
+        justify-items: left;
+    }
+    input{
+        width: 660px;
+    }
+    .city{
+        width: 660px;
+    }
   }
