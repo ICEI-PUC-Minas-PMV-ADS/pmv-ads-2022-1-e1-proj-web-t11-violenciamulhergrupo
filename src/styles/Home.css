@@ -9,7 +9,7 @@
    justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
    .container {
       padding-left: calc((100% - 940px)/2);
       padding-right: calc((100% - 940px)/2);
@@ -19,6 +19,7 @@
 /* Homepage HEADER Config */
 .header {
    width: 100%;
+   height: auto;
    
    box-sizing: border-box;
    display: flex;
@@ -38,6 +39,7 @@
 
 @media screen and (min-width:1024px){
    .header{
+      width: 100%;
       flex-direction: row;
       justify-content: space-between;
       border:none;
@@ -53,10 +55,8 @@
 .header__link{
    font-size: 1.1rem;
    display: inline-block;
-
-   margin-right: .7rem;
    margin-bottom:1.75rem;
-   margin-left:.7rem;
+   margin-right:1.5rem;
    cursor:pointer;
 }
 .header__link a{
@@ -65,7 +65,7 @@
    width: 100%;
    max-width: 100px;
    box-sizing: border-box;
-   padding:0.4rem;
+   padding:0.2rem;
    border:1px solid transparent;
    border-radius:5px;
    color:#222;
@@ -109,11 +109,17 @@
    color: #222;
    text-align: center;
    background: transparent;
+   font-size: 17px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:750px){
    .nav-bottom{
       width: 50vw;
+   }
+}
+@media screen and (max-width:850px) {
+   .nav-bottom{
+      width: 40vw;
    }
 }
 
@@ -153,8 +159,12 @@
 }
 main{
    display: flex;
-
+   font-size: 22px;
 }
+
+/* .content_principal{
+   width: 300px;
+} */
 
 /* MODO DARK */
 .headerDark{
