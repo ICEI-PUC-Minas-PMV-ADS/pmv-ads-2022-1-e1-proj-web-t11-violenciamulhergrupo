@@ -66,10 +66,10 @@ html, body {
 .ac_box_top {
     border-top: 10px solid #E6E6E6; 
     border-bottom: none; 
-    margin-left: 1080px; 
+    margin-left: 1090px; 
     height: 5px; 
     width: 325px;
-    margin-top: -1004px;
+    margin-top: -450px;
   }
 
 .ac_box_cont {
@@ -103,8 +103,8 @@ select {
     line-height: 3;
     overflow: hidden;
     border-radius: .25em;
-    padding-bottom:10px;
-    font-family: Arial, Helvetica, sans-serif;   
+    padding-bottom:10px;     
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
@@ -142,3 +142,98 @@ img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.texto_2 {
+    display: table-cell;
+    float: left;
+    width: 685px;
+    margin-top: 20px;
+    margin-left: -508px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_3 {
+    display: table-cell;
+    float: left;
+    width: 685px;
+    margin-top: -20px;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_4 {
+    display: table-cell;
+    float: left;
+    width: 685px;
+    margin-top: 20px;
+    margin-left: -245px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_5 {
+    display: table-cell;
+    float: left;
+    width: 685px;
+    margin-top: -20px;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_6 {
+    display: table-cell;
+    float: left;
+    width: 685px;
+    margin-top: -20px;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.categorias{
+    font-size: 18px;
+}
+
+.button{
+    display: table-cell;
+    float: left;
+    margin-top: 180px;
+    margin-left: -685px;
+}
+
+.button_2{
+    display: table-cell;
+    float: left;
+    margin-top: 200px;
+    margin-left: -685px;
+}
+
+.button_3{
+    display: table-cell;
+    float: left;
+    margin-top: 143px;
+    margin-left: -685px;
+}
+
+.button_4{
+    display: table-cell;
+    float: left;
+    margin-top: 150px;
+    margin-left: -685px;
+}
+
+.button_5{
+    display: table-cell;
+    float: left;
+    margin-top: 155px;
+    margin-left: -685px;
+}
+
+.button_6{
+    display: table-cell;
+    float: left;
+    margin-top: 110px;
+    margin-left: -685px;
+}
