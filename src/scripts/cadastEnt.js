@@ -23,6 +23,7 @@ function salva(){
     cadastro.descricao = descricao.value;
     let cadastroJson =JSON.stringify(cadastro);
     localStorage.setItem("cadastro", cadastroJson);
-    alert("Cadastro da Institutição\n"+cadastro.nome+"\nRealizado com sucesso!!\nPara alterar alguma informação acesse nosso site");
+    alert("Cadastro da Institutição\n"+cadastro.nome+
+    "\nRealizado com sucesso!!\nPara alterar alguma informação acesse nosso site");
 
 }

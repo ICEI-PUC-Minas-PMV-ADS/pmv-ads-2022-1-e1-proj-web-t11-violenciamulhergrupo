@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="twitter:title"/>
+    <title>Protótipo Fórum</title>
+    <link rel="stylesheet" type="text/css" href="../styles/fórum.css">
+    
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="titulo">
+            <h1>Fórum</h1>
+        </div>
+        <div class="link">
+            <a href="../page/index.html"> Início</a>
+        </div>
+    </div>
+    <section id="Mensagens">
+    <p><em>Compartilhe sua experiência com outros usuários!</em></p>
+      <div class="campoMensagens" id="mens1"></div>
+      <div class="campoMensagens" id="mens2"></div>
+      <div class="campoMensagens" id="mens3"></div>
+      <div class="campoMensagens" id="mens4"></div>
+
+        <tr>
+            <br />
+            <h2><textarea rows="10" cols="100" maxlength="1000" id="texto">Digite sua história: </textarea>
+            <button onclick="GravarMens()" type="button" name="enviar">compartilhar</button>
+        </h2>
+        </tr>
+   </section>
+   <script src="../scripts/scriptForum.js"></script>
+</body>
+</html>

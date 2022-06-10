@@ -35,11 +35,13 @@
     margin-top: 10px;
     text-decoration: none;
     box-shadow:0 5px 0 #675c75d6;
+    transition: .40s;
 }
 .link a:hover{
     background-color: rgba(151, 109, 208,0.40);
     color:#fff;
     box-shadow:0 2px 0 #675c75d6;
+    transition: .40s;
 }
 form{
     display: flex;
