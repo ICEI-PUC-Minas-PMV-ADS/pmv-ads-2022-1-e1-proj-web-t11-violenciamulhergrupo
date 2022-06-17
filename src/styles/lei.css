@@ -10,7 +10,7 @@ ul{
     padding: 16px;
 }
 a{
-    color: blueviolet;
+    color: purple;
     text-decoration: none;
 }
 img{
@@ -18,7 +18,7 @@ img{
     height: 150px;
 }
 header{
-    background-color: #E0D3F1;
+    background-color: rgb(222, 135, 193);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@ nav a:hover{
 
 }
 h1{
-    color: blueviolet;
+    color: purple;
 }
 h2{
     text-align: center;

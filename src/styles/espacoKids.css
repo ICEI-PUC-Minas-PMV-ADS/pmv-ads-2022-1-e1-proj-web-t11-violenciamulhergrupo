@@ -1,9 +1,7 @@
 
-header{
-    background-color: #E0D3F1;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;       
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;  
 }
 ul{
     display: flex;
@@ -12,24 +10,23 @@ ul{
     align-items: center;
     padding: 16px;
 }
-img{
-    width: 150px;
-    height: 150px;
+header{
+    background-color: rgb(222, 135, 193);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 a{
     color: blueviolet;
     text-decoration: none;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;  
-    text-align: center;    
-}
+
 nav a:hover{
     color: blueviolet;
 
 }
 h1{
-    color: blueviolet;
+    color: purple;
 }
 h2{
     text-align: center;
