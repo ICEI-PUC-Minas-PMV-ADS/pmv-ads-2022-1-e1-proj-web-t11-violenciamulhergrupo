@@ -145,7 +145,7 @@
  }
  @media screen and (max-width:600px){
     .destaque_img{
-       padding-top:0.8rem;
+       padding-top:0.5rem;
        width: 340px;
     }
     iframe{
