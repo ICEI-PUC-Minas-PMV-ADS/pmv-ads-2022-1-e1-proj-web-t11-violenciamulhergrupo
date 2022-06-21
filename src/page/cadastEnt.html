@@ -1,54 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de entidades</title>
-    <link rel="stylesheet" href="../styles/CadastEntStyle.css">
-    <script src="../scripts/cadastEnt.js"></script>
+   <meta charset=" UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de entidades</title>
+   <link rel="stylesheet" href="../styles/CadastEntStyle.css">
+   <link rel="stylesheet" href="../styles/Global.css">
+   <script src="../scripts/cadastEnt.js"></script>
 </head>
+
 <body>
-    <div class="navbar">
-        <div class="titulo">
-            <h1>Cadastro da Instituição</h1>
-        </div>
-        <div class="link">
-            <a href="../page/index.html"> Início</a>
-        </div>
+   <header class="header">
+    <div class="titulo">
+        <h1>Cadastro de Instituições</h1>
     </div>
-    <form onsubmit="naoMudar(event)" action="">
-        <div class="formatForm">
-            <label for="name">Nome da Organização: </label>
-            <input id="name" type="text">
-        </div>
-        <div class="formatForm">
-            <label for="phone">Telefone da organização: </label>
-            <input id="phone" type="number">
-        </div>
-        <div class="formatForm">
-            <label for="adress">Endereço Organização: </label>
-            <input id="adress" type="text">
-        </div>
-        <div class="formatForm">
-            <label for="city">Cidade: </label>
-            <input id="city" class="city" type="text">
-            <label for="state">Estado: </label>
-            <input id="state" class="city" type="text">
-        </div>
-        <div class="formatForm">
-            <label for="url">Site da Organização: </label>
-            <input id="url" type="url">
-        </div>
-        <div class="formatForm">
-            <label for="name">Imagem da Organização: </label>
-            <input class="image" id="imagem" type="file" placeholder="Caminho da arquivo da imagem">
-        </div>
-        <div class="formatForm">
-            <textarea name="description" id="description" cols="200" rows="20" placeholder="Digite a história de sua entidade e como pode ajudar"></textarea><br>
-        </div>
-        <button onclick="salva()">Enviar</button>
-    </form>
-    
+      <nav class="header__nav">
+         <ul>
+            <li class="header__link"><a href="../page/index.html">Início</a></li>
+            <li class="header__link">
+               <a id="colorMode">Alterar cor</a>
+            </li>
+            <li class="header__link">
+               <a id="menu">Menu</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <nav class="nav-bottom">
+    <a href="../page/cursos.html">Cursos</a>
+    <a href="../page/bibliotecamulher.html">Apostilas</a>
+    <a href="../page/lei.html">Lei Maria da Penha</a>
+    <a href="../page/EspacoKids.html">Espaco Kids</a>
+    <a href="../page/comunicacao_prov.html">Comunicação</a>
+    <a href="../page/artigos.html">Artigos</a>
+    <a href="../page/campanhas.html">Campanhas</a>
+    <a href="../page/eventos.html">Eventos</a>
+    <a href="../page/parcerias.html">Parcerias</a>
+    <a href="../page/bibliotecaDigital.html">Biblioteca Digital</a>
+    <a href="../page/mapadelegacias.html">Delegacias</a>
+ </nav>
+   <main>
+</div>
+<form onsubmit="naoMudar(event)" action="">
+    <div class="formatForm">
+        <label for="name">Nome da Organização: </label>
+        <input id="name" type="text">
+    </div>
+    <div class="formatForm">
+        <label for="phone">Telefone da organização: </label>
+        <input id="phone" type="number">
+    </div>
+    <div class="formatForm">
+        <label for="adress">Endereço Organização: </label>
+        <input id="adress" type="text">
+    </div>
+    <div class="formatForm">
+        <label for="city">Cidade: </label>
+        <input id="city" class="city" type="text">
+        <label for="state">Estado: </label>
+        <input id="state" class="city" type="text">
+    </div>
+    <div class="formatForm">
+        <label for="url">Site da Organização: </label>
+        <input id="url" type="url">
+    </div>
+    <div class="formatForm">
+        <label for="name">Imagem da Organização: </label>
+        <input class="image" id="imagem" type="file" placeholder="Caminho da arquivo da imagem">
+    </div>
+    <div class="formatForm">
+        <textarea name="description" id="description" cols="200" rows="20" placeholder="Digite a história de sua entidade e como pode ajudar"></textarea><br>
+    </div>
+    <button onclick="salva()">Enviar</button>
+</form>
+      <!-- <div class="card-secundario">
+         oi
+      </div> -->
+   </main>
+
+
+   <script src="../scripts/script.js"></script>
 </body>
+
 </html>
