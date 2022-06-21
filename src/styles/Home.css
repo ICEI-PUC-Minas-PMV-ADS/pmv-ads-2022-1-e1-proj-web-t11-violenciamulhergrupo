@@ -16,124 +16,86 @@
     }
  }
  
+
  /* Homepage HEADER Config */
- .header {
-    width: 100%;
-    height: auto;
-    
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: none;
+.header{
+   width: 100%;
+   height: auto;
  
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
  
-    border-bottom:1px solid ;
+   padding-top: .75rem;
+   padding-bottom: .75rem;
  
-    /* position: absolute; */
- 
-    background-color: var(--cor-primaria);
+   background-color: var(--cor-primaria);
  }
+ 
+ .header__logo{
+   margin-bottom:0.3rem;
+   width: 100px;
+   height: 100px;
+ }
+ 
  .header h1{
    color: #a27de2;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: x-large;
-   font-weight: bolder;
-   justify-items: left;
+   font-size: 26px;
+   margin-top: 1rem;
+   text-align: center;
  }
+ 
+ .header__nav ul{
+   display: flex;
+   list-style: none;
+   margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+ }
+ .header__link{
+   margin: .3rem;
+  background: transparent;
+  border-radius: 4px;
+  padding: 0.1rem;
+  transition: all .4s;
+ }
+ .header__link:hover{
+   transition: all .4s;
+   background: #a27de2;
+ }
+ 
+ /* Responsividade */
+ /* 
+  ---- OBS!!! IMPORTANTE!!! NAO MEXA EM MARGINS OU PADDINGS SE NAO FOR NECESSARIO!!!!!!!!!!!
+ */
  
  @media screen and (min-width:1024px){
-    .header{
-       width: 100%;
-       flex-direction: row;
-       justify-content: space-between;
-       border:none;
-    }
+   .header{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+   }
+   .header h1{
+     font-size: 30px;
+     margin-bottom: 20px;
+   }
+   .header__link{
+     font-size:15px;
+     padding: .4rem;
+   }
+   
  }
  
- .header__-b{
-    display: flex;
-    align-items: center;
-    text-align: center;
+ @media screen and (min-width: 600px) {
+   .header h1{
+     margin-bottom: 30px;
+   }
+   
  }
  
- .header__link{
-    font-size: 1.1rem;
-    display: inline-block;
-    margin-bottom:1.75rem;
-    margin-right:1.5rem;
-    cursor:pointer;
- }
- .header__link a{
-    display: block;
-    text-align: center;
-    width: 100%;
-    max-width: 100px;
-    box-sizing: border-box;
-    padding:0.2rem;
-    border:1px solid transparent;
-    border-radius:5px;
-    color:#222;
-    transition: .30s;
- }
- .header__link a:hover{
-    transition: .40s;
-    background-color: #a27de2;
-    color: #fefefe;
-    border: 1px solid transparent;
- }
- .header__logo{
-    margin-bottom:1rem;
-    width: 100px;
-    height: 100px;
- }
- 
- .nav-bottom {
-    transition:0.3s;
-    display: flex;
-    flex-direction: column;
-    background-color: #b090e7;
-    width: 15vw;
-    height: 25vh;
-    position: absolute;
-    left: -100vw;
-    transition: .25s;
- }
- .nav-bottom-active {
-    height: 98vh;
-    position: absolute;
-    left: 0vw;
-    transition: .25s;
- }
- 
- .nav-bottom a{
-    position: relative;
-    padding-top:1rem;
-    padding-bottom:1rem;
-    max-width: 400px;
-    color: #222;
-    text-align: center;
-    background: transparent;
-    font-size: 17px;
- }
- 
- @media screen and (max-width:750px){
-    .nav-bottom{
-       width: 50vw;
-    }
- }
- @media screen and (max-width:850px) {
-    .nav-bottom{
-       width: 40vw;
-    }
- }
- 
- .nav-bottom a:hover{
-    background: #5513be;
-    color:#f2f2f2;
- }
  
  .sub-content{
     display: flex;
@@ -163,11 +125,77 @@
       font-size: 18px;
       margin-bottom: 3.3rem;
     }
+
+    
  }
  .wrapper{
     padding-top:1rem;
     padding-bottom: 1rem;
  }
+
+ 
+.nav-bottom {
+   transition:0.3s;
+   display: flex;
+   flex-direction: column;
+   background-color: #b090e7;
+   width: 15vw;
+   height: 25vh;
+   position: absolute;
+   left: -100vw;
+   transition: .25s;
+ }
+ .nav-bottom-active {
+   height: 98vh;
+   position: absolute;
+   left: 0vw;
+   transition: .25s;
+ }
+ 
+ .nav-bottom a{
+   position: relative;
+   padding-top:1rem;
+   padding-bottom:1rem;
+   max-width: 400px;
+   color: #222;
+   text-align: center;
+   background: transparent;
+   font-size: 17px;
+ }
+ 
+ @media screen and (max-width:750px){
+   .nav-bottom{
+      width: 50vw;
+   }
+ }
+ @media screen and (max-width:850px) {
+   .nav-bottom{
+      width: 40vw;
+   }
+   .sub-content{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+ }
+
+ @media screen and (max-width:390px) {
+   .sub-content{
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
+   }
+ }
+
+ @media screen and (max-width:350px) {
+   .sub-content{
+      padding: 0;
+   }
+ }
+ 
+ .nav-bottom a:hover{
+   background: #5513be;
+   color:#f2f2f2;
+ }
+
  main{
     display: flex;
     font-size: 22px;

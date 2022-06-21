@@ -23,7 +23,6 @@ btnColorMode.addEventListener("click", ()=>{
 
 
 btnMenuLateral.addEventListener("click", () => {
-   console.log("oiii")
    console.log(menuLateral.className)
    menuLateral.classList.toggle("nav-bottom-active");
 })

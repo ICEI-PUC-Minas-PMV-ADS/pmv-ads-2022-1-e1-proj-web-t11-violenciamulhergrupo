@@ -10,4 +10,6 @@
    --branco:#fefefe;
    --preto:#222;
 }
-
+body{
+   width: 100%;
+}
