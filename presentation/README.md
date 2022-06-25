@@ -4,9 +4,12 @@ Este site que tem por objetivo auxiliar pessoas que buscam denunciar e também p
 
 ![Aplicação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-violenciamulhergrupo/blob/main/Viol%C3%AAncia%20Contra%20A%20Mulher%20E%20Mais%201%20P%C3%A1gina%20-%20Pessoal%20%E2%80%94%20Microsoft%20%20Edge%202022-06-25%2013-06-33%20Reduzido%202.m4v)
 
+
 ## Vídeo com Slide + Apresentação da Aplicação
 
-[![Disponível no Youtube](miniatura)](https://youtu.be/tDxTJ4xP86M "Vídeo com slide + Apresentação da aplicaçao")
+[![Disponível no Youtube](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-violenciamulhergrupo/blob/main/site%20violencia%20dom%C3%A9stica.jpeg)](https://youtu.be/tDxTJ4xP86M "Vídeo com slide + Apresentação da aplicaçao")
+
+### Clique na imagem para ser direcionado ao vídeo. 
 
 
  ## Link da Aplicação Hospedada
