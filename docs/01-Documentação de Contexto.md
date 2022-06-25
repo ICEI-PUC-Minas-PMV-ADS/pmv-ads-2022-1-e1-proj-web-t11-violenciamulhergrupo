@@ -1,46 +1,34 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o avanço das tecnologias e acesso à informação, as mulheres estão inserindo-se no mercado de trabalho e conquistando o seu lugar neste ambiente, superando barreiras, se aperfeiçoando e entendendo os seus direitos. 
+Infelizmente, esta realidade ainda é distante para aquelas que sofrem violência doméstica, visto que muitas vezes são ameaçadas e não têm sabedoria das informações para saírem dessa situação.  Dentre os “motivos” pelas quais sofrem este tipo de dano são, em primeiro lugar, ciúmes e, em sequência, problemas com bebidas alcoólicas por parte dos agressores, problemas financeiros e problemas familiares. A matéria do Jornal Nacional, publicada em 2019, sobre o porquê as mulheres não denunciam seus agressores, mostra que 1 a cada 4 mulheres são dependentes financeiramente deles, não efetivando a queixa:
+“As mulheres, quando realizam queixa na delegacia, estão em um momento de conflito, pois, a esses sentimentos de desespero, vergonha e humilhação, junta-se o temor de expor o homem a quem escolheu para ser o pai de seus filhos. Quando a mulher faz a queixa na delegacia, não é o rompimento das relações afetivas que ela quer, mas a interferência e a proteção da polícia em futuras agressões ou auxílio para administrar os impasses domésticos (BRANDÃO, 1998.
+Vale salientar que a violência doméstica, seja ela física, psicológica, sexual, patrimonial e moral, não ocorre somente com mulheres, mesmo sendo em grande parte as vítimas deste crime, mas também com homens e crianças, sendo necessária a proteção de todos. Outro adentro do tema seria o aumento da violência doméstica em tempos de pandemia, já que o isolamento social tornou ainda mais difícil a sua incriminação: “A residência continua sendo o lugar mais perigoso. Praticamente metade dos casos de violência aconteceu dentro de casa, e 73% dos agressores eram íntimos das vítimas. Maridos ou namorados em primeiro lugar, seguidos de ex-maridos ou ex-namorados, pais ou mães, padrastos ou madrastas e mesmo filhos e filhas. Para Amanda Pimentel, uma das autoras do estudo, o estudo mostra que a violência contra a mulher mantém padrões antigos, mas agravados pela pandemia do coronavírus, que conseguiu tornar o ambiente doméstico um lugar ainda mais hostil. Segundo o estudo, a crise sanitária tem dificultado o enfrentamento da violência contra mulher, já que o convívio mais longo com os agressores, a perda de renda familiar e o maior isolamento afastam as mulheres de suas redes de proteção.” Fonte: Rádio Agência Nacional.
+Em contraposição a estes cenários, torna se imprescindível a criação de canais e ferramentas que auxiliem a denúncia, informação, entre outros meios para combater este tipo de crime a fim de facilitar que estas vítimas tenham acesso a canais que permitam ao que precisarem para saírem desta situação para viverem livres e independentes de seus agressores. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Em acordo com o proposto acima, o problema a ser tratado neste Projeto é a falta de um espaço acessível onde pessoas que sofrem com violência doméstica possam encontrar meios de denúncia e ambiente de acolhimentos, com divulgação de abrigos e cursos para proporcionar acesso a informações e denúncias anônimas via Web. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste Projeto é desenvolver um web site que possa servir de um espaço virtual de acolhimento às mulheres vítimas de violência domésticas, onde as mesmas possam encontrar formas de denúncia e apoio para sair desta condição.
+Como objetivos específicos podemos ressaltar:
+•	Oferecer canal de denúncias sobre o estado de violência;
+•	Apresentar ofertas de cursos profissionalizantes e espaço de apoio psicossociais para as vítimas;
+•	Prover um espaço para interação social entre vítimas e profissionais especializados, que se coloquem como voluntários para ajudar.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+De acordo com a pesquisa realizada pelo Ipec (Inteligência em Pesquisa e Consultoria) foi revelado que 15% das brasileiras com 16 anos ou mais relataram ter experimentado algum tipo de violência psicológica, física ou sexual perpetrada por parentes ou companheiro/ex-companheiro íntimo durante a pandemia, o equivalente a 13,4 milhões de brasileiras. Isso significa dizer que, a cada minuto do último ano, 25 mulheres foram ofendidas, agredidas física e/ou sexualmente ou ameaçadas no Brasil.
+De  acordo com o exposto acima, buscamos auxiliar na melhora da qualidade de vida destas mulheres, encorajar a denúncia e mostrar que é possível a vítima mudar de vítima e não ser mais refém de  pessoas abusivas.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Todos as pessoas, com destaque em mulheres, independentemente de classe, raça, etnia, orientação sexual, renda, cultura, nível educacional, idade e religião ,vítimas de violência doméstica, homens (autor do fato) e crianças e adolescentes que compõem o núcleo familiar. 
+“Em pouco menos de metade dos casos, o perpetuador é o parceiro (ou ex parceiro) da mulher. No país, foi possível verificar que 42,5% do total de agressões contra a mulher enquadra-se nessa situação. Mas ainda, se tornarmos a faixa de 20 a 49 anos acima de 65% tiveram autoria do parceiro ou do ex.” Fonte Ipea “Violência contra a mulher “. 
+Com esses dados, podemos definir que não há distinção entre o tipo de mulher que sofrerá a violência, tornando- se necessário a inclusão de todos e todas, incluindo a família. Por fim, o projeto se destina aqueles que querem denunciar algum caso, se proteger e pedir ajuda e que por medo ou opressão podem fazê-los de forma anônima e facilitada. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
