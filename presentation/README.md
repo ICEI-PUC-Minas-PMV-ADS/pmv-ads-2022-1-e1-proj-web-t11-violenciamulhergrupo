@@ -8,7 +8,7 @@ Este site que tem por objetivo auxiliar pessoas que buscam denunciar e também p
 
 ### [Vídeo somente o site no Git Hub para Baixar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t11-violenciamulhergrupo/blob/main/violencia-contra-a-mulher-e-mais-1-pagina-pessoal-microsoft-edge-2022-0_0xn8whsI.mp4)
 
-### [Vídeo  do Youtube mostrando somente a aplicação](https://youtu.be/GIGL02t4aeE?t=9)
+### [Vídeo  do Youtube mostrando somente o site](https://youtu.be/GIGL02t4aeE?t=9)
 
 ## Vídeo com Slide + Apresentação da Aplicação
 
@@ -16,7 +16,7 @@ Este site que tem por objetivo auxiliar pessoas que buscam denunciar e também p
  
  ### [Disponível no Git Hub para Baixar]()
 
-### Clique na imagem para ser direcionado ao vídeo. 
+### Clique na imagem para ser direcionado ao vídeo no Youtube.
 
 
  ## Link da Aplicação Hospedada
